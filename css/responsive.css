@@ -1,0 +1,70 @@
+@media only screen and (max-width: 516px) {
+    main{
+        width: 70%;
+    }
+    .content{
+        height: 100%;
+    }
+    .content h1{
+        font-size: 22px;
+    }
+    .content h2{
+        font-size: 18px;
+    }
+    .content p{
+        font-size: 14px;
+    }
+    .content:nth-child(2){
+        display: block;
+    }
+    .content:nth-child(2) .sidebar{
+        width: 100%;        
+    }
+    .sidebar:first-child h2{
+        font-size: 22px;
+    }
+    .sidebar:first-child p{
+        font-size: 18px;
+    }
+    .sidebar:first-child{
+        border-bottom-left-radius: 0px;
+    }
+    .sidebar:first-child .text{
+        color: var(--LightGray);
+        font-size: 13px;
+    }
+    .sidebar:first-child .price .txt{
+        padding: 32px 0px 0px 20px;
+    }
+    .sidebar:first-child  .design{
+        font-weight: 900;
+        font-size: 48px;
+    }
+    button{
+        width: 220px;
+        height: 35px;
+    }
+    .sidebar:nth-child(2){
+    border-bottom-right-radius: 0px;
+    }
+    .sidebar:nth-child(2) p{
+        font-size: 22px;
+    }
+    .sidebar:nth-child(2) .foot P{
+        font-size: 13px;
+    }
+    .attribution { 
+    margin-top: -20px;
+    font-size: 11px;
+    font-family: 400;
+    text-align: center;
+    color: var(--BrightYellow);
+    }
+    .attribution a {
+        font-size: 13px;
+        font-weight: 600;
+        color: var(--Cyan);
+        text-decoration: none;
+    }
+}
+

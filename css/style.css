@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: karla, sans-serif;
+}
+:root{
+    --Cyan: hsl(179, 62%, 43%);
+    --BrightYellow: hsl(71, 73%, 54%);
+    --LightGray: hsl(204, 43%, 93%);
+    --GrayishBlue: hsl(218, 22%, 67%);
+}
+body{
+    background-color: var(--LightGray);
+}
+main{
+    width: 550px;
+    margin: 70px auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 2px var(--GrayishBlue);
+}
+.content{
+    width: 100%;
+    height: 50%;
+}
+ /* section1 */
+.content:first-child{
+    background-color: #fff;
+    padding: 30px;
+}
+.content h1{
+    color: var(--Cyan);
+    padding: 10px 0px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.content h2{
+    color: var(--BrightYellow);
+    padding: 10px 0px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.content p{
+    color: var(--GrayishBlue);
+    padding: 3px 0px;
+    font-size: 15.2px;
+    font-weight: 400;
+}
+/* section2 */
+.content:nth-child(2){
+    display: flex;
+}
+.content:nth-child(2) .sidebar{
+    width: 50%;
+    flex-direction: row;
+}
+.content:nth-child(2) .sidebar p{
+   padding-top: 10px;    
+}
+ /* part-one */
+.sidebar:first-child{
+    padding: 30px;
+    background-color: var(--Cyan);
+    border-bottom-left-radius: 10px;
+}
+.sidebar:first-child h2{
+    color: #ffffff;
+}
+.sidebar:first-child p{
+    color: #fff;
+}
+.sidebar:first-child .price{
+    display: flex;
+    text-align: center;
+}
+.sidebar:first-child .price .txt{
+    padding: 24px 0px 0px 20px;
+    color: var(--LightGray);
+}
+.sidebar:first-child .text{
+    color: var(--LightGray);
+    font-size: 13px;
+}
+.sidebar:first-child  .design{
+    font-weight: 900;
+    font-size: 36px;
+}
+button{
+    background-color: var(--BrightYellow);
+    color: #fff;
+    font-weight: 700;
+    border-style: none;
+    width: 170px;
+    height: 35px;
+    cursor: progress; 
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 1px var(--GrayishBlue);
+    margin-top: 29px;
+}
+/* second-part */
+.sidebar:nth-child(2){
+    padding: 30px;
+    background-color: rgb(83, 179, 179);
+    border-bottom-right-radius: 10px;
+}
+.sidebar:nth-child(2) p{
+    font-size: 16px;
+    font-weight: 700;
+    padding-bottom: 15px;
+    color: #fff;
+}
+.sidebar:nth-child(2) .foot P{
+    font-size: 13px;
+    font-weight: 400;
+    padding-bottom: 5px;
+    color: var(--LightGray);
+    line-height: 0.5rem;
+}
+.attribution { 
+    margin-top: -20px;
+    font-size: 16px;
+    font-family: 400;
+    text-align: center;
+    color: var(--BrightYellow);
+}
+.attribution a {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--Cyan);
+    text-decoration: none;
+}
+
+
+
+
